@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+button {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(192 105 154);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container>div {
+    padding: 2rem 5rem;
+    border: none;
+    background-color:rgb(243 186 235);
+    box-shadow: 1px 21px 38px 15px rgba(34, 60, 80, 0.3);
+    border-radius: 10px;
+}
+
+.addTodoBlock {
+    display: flex;
+    gap: 5px;
+}
+
+.addTodoBlock>input {
+    padding: 10px;
+}
+
+.addTodoBlock button {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255 139 173);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.todo-list {
+    margin-top: 20px;
+}
+.todo-list > div{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.active {
+    text-decoration: none;
+}
+.deleteTodo {
+    background-image: url('./trash.svg');
+    padding: 13px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    background-color:  rgb(255 194 228);
+    cursor: pointer;
+
+}
+
